@@ -1,0 +1,14 @@
+# Disease Prediction Using ML
+My aim is to create an Ml model that can efficiently predict the disease of human, based on they symptoms that he/ she posseses.
+
+I will use a data set that has a total of 133 Columns and out of that 132 columns represents the symptoms and the last column is the prognosis, we can use this data set to predict 42 different diseases
+
+link to the dataset and description of the dataset
+
+I will use 3 Models (Support Vector Classifier, Naive Bayes Classifier and Random forest Classifier) to perform the prediction, and then I will use the Confusion matrix to determine the quality of the models.
+
+### I will define a function that takes symptoms separated by commas as input, predict the disease based on the syptoms, and return the predictions in a JSON format.
+
+I have 2 data sets train.csv and test.csv
+
+Each column represents a symptom and last column represents a disease
